@@ -31,3 +31,4 @@ for image in images :
         des = r"J:\\py_ex\\filesegregration\\testDestinationDB\\gif\\"
         shutil.copy2(image,des)
         print(("3 --- {} moved  to des").format(image))
+
