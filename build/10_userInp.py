@@ -42,7 +42,9 @@ def imageSegregration() :
         print(("3 --- {} moved  to des").format(filePath))
     
 
-abspath =  "K:\\miNote5bachkup30dec2019\\"
+# abspath =  "K:\\miNote5bachkup30dec2019\\"
+
+abspath = input("Give the path from which extraction shoul start == ",)
 
 for root,dirs,files in os.walk(abspath) :
     for file in files :
